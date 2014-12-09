@@ -18,7 +18,7 @@ $('.nota').bind('touchstart',function(){
 	audio.play($(this).attr('id'));
 	
 }).bind('touchend',function(){
-	$(this).remove('tocada');  
+	$(this).removeClass('tocada');  
     });
 	
 	},false);//deviceready
